@@ -28,7 +28,7 @@
         <!--Два блока с отображениями -->
         <div class="row">
             <div class="col-sm-6">
-                <a class="btn btn-block btn-default" href="#">Создать категорию</a>
+                <a class="btn btn-block btn-default" href="{{route('admin.category.create')}}">Создать категорию</a>
                 <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Категория первая</h4>
                     <p class="list-group-item-text">Кол-во материалов</p>
